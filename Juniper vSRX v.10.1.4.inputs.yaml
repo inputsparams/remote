@@ -1,0 +1,15 @@
+vimConnectionInfo:
+    - {accessInfo: {tenant: c6270d9192664cb89435c25dac60cbb9}, vimId: 51aaaaaa-5151-1111-1111-111111111111}
+extVirtualLinks:
+    - {id: right-net, resourceId: 73255202-e629-46fb-baab-eee0c2a6fbaa, extCps: [{cpdId: right_ext_cp, cpConfig: [{cpProtocolData: [{layerProtocol: IP_OVER_ETHERNET, ipOverEthernet: {ipAddresses: [{type: IPV4, subnetId: 9237200e-2bdf-4d7a-b7b6-3716bfb630fd}]}}]}]}]}
+    - {id: mgmt-net, resourceId: d3a4f67c-c5c8-4b84-9fe4-f2e7b820bfda, extCps: [{cpdId: mgmt_ext_cp, cpConfig: [{cpProtocolData: [{layerProtocol: IP_OVER_ETHERNET, ipOverEthernet: {ipAddresses: [{type: IPV4, subnetId: 2b7123a2-316a-4f45-8865-aace415c2f73}]}}]}]}]}
+    - {id: left-net, resourceId: 92b88d05-bbef-4985-98a7-6ab93f2618b9, extCps: [{cpdId: left_ext_cp, cpConfig: [{cpProtocolData: [{layerProtocol: IP_OVER_ETHERNET, ipOverEthernet: {ipAddresses: [{type: IPV4, subnetId: e980df83-9b09-4209-ac99-985c2c4b08e8}]}}]}]}]}
+additionalParams:
+    floating_network_id: 86c0884b-35ec-4acc-80ea-c180aa3a9df1
+    packageId: 5c34afaa9a97d500018c1396
+    configurable_properties: {username: nc, password: Netcracker, port: '830', snmp_listener_ip: 10.101.17.89, snmp_listener_port: '30976', mgmt_port_security_enabled: 'false', dataplane_port_security_enabled: 'true'}
+flavourId: default
+instantiationLevelId: instantiationLevel1
+resourceZones: {}
+extManagedVirtualLinks: []
+name: 'Juniper yaml'
