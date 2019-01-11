@@ -1,0 +1,16 @@
+vimConnectionInfo:
+    - {accessInfo: {tenant: c6270d9192664cb89435c25dac60cbb9}, vimId: 51aaaaaa-5151-1111-1111-111111111111}
+extVirtualLinks:
+    - {id: left-net, resourceId: ca7518e5-cc94-4025-bbd1-549aab9e3bf6, extCps: [{cpdId: left_ext_cp, cpConfig: [{cpProtocolData: [{layerProtocol: IP_OVER_ETHERNET, ipOverEthernet: {ipAddresses: [{type: IPV4, subnetId: e93c4511-7c63-4aac-adf8-f3d8325f7922}]}}]}]}]}
+    - {id: mgmt-net, resourceId: eb6113f7-2966-46d2-a1c0-2d0bcc3a794f, extCps: [{cpdId: mgmt_ext_cp, cpConfig: [{cpProtocolData: [{layerProtocol: IP_OVER_ETHERNET, ipOverEthernet: {ipAddresses: [{type: IPV4, subnetId: c14c21c3-13e6-46a5-bb81-fc79afff40f7}]}}]}]}]}
+    - {id: right-net, resourceId: 9e8e4047-5170-4fea-b1ee-77d2345ca192, extCps: [{cpdId: right_ext_cp, cpConfig: [{cpProtocolData: [{layerProtocol: IP_OVER_ETHERNET, ipOverEthernet: {ipAddresses: [{type: IPV4, subnetId: 3a7c4ce8-b493-42af-bbb5-353c29095c33}]}}]}]}]}
+additionalParams:
+    floating_network_id: 86c0884b-35ec-4acc-80ea-c180aa3a9df1
+    packageId: 5c38af8b213cb500017013f0
+    configurable_properties: {username: nc, password: Netcracker, port: '830'}
+flavourId: default
+instantiationLevelId: instantiationLevel1
+resourceZones: {}
+extManagedVirtualLinks: []
+name: cirros55
+description: '555'
