@@ -1,0 +1,14 @@
+vimConnectionInfo:
+    - {accessInfo: {tenant: c6270d9192664cb89435c25dac60cbb9}, vimId: 51aaaaaa-5151-1111-1111-111111111111}
+extVirtualLinks:
+    - {id: vims-mgmt-net, resourceId: bf5e077a-7094-4f1b-a580-0bba8c3fb008, extCps: [{cpdId: lb_ext_cp, cpConfig: [{cpProtocolData: [{layerProtocol: IP_OVER_ETHERNET, ipOverEthernet: {ipAddresses: [{type: IPV4, subnetId: 3eab7d16-c677-4c35-9f0a-806edc956616}]}}]}]}, {cpdId: ws_ext_cp, cpConfig: [{cpProtocolData: [{layerProtocol: IP_OVER_ETHERNET, ipOverEthernet: {ipAddresses: [{type: IPV4, subnetId: 3eab7d16-c677-4c35-9f0a-806edc956616}]}}]}]}]}
+additionalParams:
+    floating_network_id: 86c0884b-35ec-4acc-80ea-c180aa3a9df1
+    packageId: 5cc02945357b2f0008172d5d
+    lb_ws_vl.cidr: 55.66.66.77/24
+    configurable_properties: {enable_routing: false, mgmt_routes: 10.0.0.0/8, ws_node_boot_size: '3 GB', ws_node_storage_size: '1 GB', lb_node_storage_size: '1 GB', lb_node_storage_mount_point: /var/lib/storage, isAutohealEnabled: true, isAutoscaleEnabled: true}
+flavourId: default
+instantiationLevelId: instantiationLevel1
+resourceZones: {}
+extManagedVirtualLinks: []
+description: 43t34t34
