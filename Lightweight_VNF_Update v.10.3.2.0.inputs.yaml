@@ -1,0 +1,18 @@
+vimConnectionInfo:
+    - {accessInfo: {tenant: c7c42cd9f09d4901b6c8096a4cd9642d}, vimId: 51aaaaaa-5151-1111-1111-111111111111}
+extVirtualLinks:
+    - {id: vims-mgmt-net, resourceId: 45f70f33-ad1c-4301-947e-e4f5307cc10c, extCps: [{cpdId: lb_ext_cp, cpConfig: [{cpProtocolData: [{layerProtocol: IP_OVER_ETHERNET, ipOverEthernet: {ipAddresses: [{type: IPV4, subnetId: 1a14cc78-a5dd-4949-8e8e-e5ca1bd7586e}]}}]}]}]}
+additionalParams:
+    floating_network_id: c62c8514-94a8-4d77-8142-86ce31c9dc08
+    packageId: 5d2c4361755e8f00089ea1a2
+    lb_ws_vl.cidr: 25.25.25.25/24
+    configurable_properties: {enable_routing: false, mgmt_routes: 10.0.0.0/8, ws_node_boot_size: '6 GB', ws_node_storage_size: '6 GB', lb_node_storage_size: '6 GB', lb_node_storage_mount_point: /var/lib/storage, isAutohealEnabled: true, isAutoscaleEnabled: true, fullName: vfd, address: {street: vdf, apt: vfd}, favMealList: [vdf], age: '22', married: false, motto: vdfvf}
+flavourId: default
+instantiationLevelId: instantiationLevel1
+resourceZones:
+    nova-1: [lb_node]
+    nova: [lb_ws_vl]
+    nova-2: [ws_node]
+extManagedVirtualLinks: []
+name: name
+description: ddesc
